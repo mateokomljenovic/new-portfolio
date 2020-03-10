@@ -1,0 +1,32 @@
+//Variables
+$text-color1: #b6b6b6;
+$text-color2: #ececec; 
+$primary-bg:  rgba(59,59,59,0.8538283062645011);
+$secondary-bg: #3b3b3b;
+
+body::-webkit-scrollbar{
+  width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track{
+  background: rgba(120,2,133,1)
+}
+
+//Margin and padding
+$spacearound: (1,2,3,4,5); 
+
+@each $space in $spacearound {
+  .m-#{$space}{
+    margin: #{$space}rem;
+  }
+  .my-#{$space}{
+    margin: #{$space}rem 0;
+  }
+  .p-#{$space}{
+    padding: #{$space}rem;
+  }
+
+  .py-#{$space}{
+    padding: #{$space}rem 0;
+  }
+}
