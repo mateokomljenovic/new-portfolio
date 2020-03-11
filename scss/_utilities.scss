@@ -9,6 +9,10 @@ body::-webkit-scrollbar{
 }
 
 body::-webkit-scrollbar-track{
+  background: $text-color2;
+}
+
+body::-webkit-scrollbar-thumb{
   background: rgba(120,2,133,1)
 }
 
